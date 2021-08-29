@@ -11,7 +11,8 @@ export default function PorfolioContent({
   live,
   image,
   direccion ='flex-row',
-  color= 'bg-purple-700'
+  color= 'bg-purple-700',
+  disable = false
 }) {
   return (
     <>
@@ -25,9 +26,9 @@ export default function PorfolioContent({
             <li>{bullet3}</li>
           </ul>
           <div className="w-full flex justify-evenly ">
-            <a href={github}>Github</a>
-            <a href={demo}>Demo</a>
-            <a href={live}>Live</a>
+            <a target="_blank" href={github} className={`p-3 ${disable.github ? "bg-gray-700 cursor-not-allowed":" bg-indigo-700  cursor-pointer"} rounded-xl bg-opacity-20`}>Github</a>
+            <a target="_blank" href={demo} className={`p-3 ${disable.demo ? "bg-gray-700 cursor-not-allowed":" bg-red-700  cursor-pointer"} rounded-xl bg-opacity-20`}>Demo</a>
+            <a target="_blank" href={live} className={`p-3 ${disable.live ? "bg-gray-700 cursor-not-allowed":" bg-yellow-700  cursor-pointer"} rounded-xl bg-opacity-20`}>Live</a>
           </div>
         </div>
        

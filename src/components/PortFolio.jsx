@@ -11,10 +11,14 @@ export default function PortFolio() {
         bullet1:"Utilized JSON web token and local storage to store encrypted user information client-side.",
         bullet2:"Designed with Tailwind CSS, making the styling process quicker.",
         bullet3:" Developed with React /Redux the front-end and with Rails/active record/PostgreSQL the back-end.",
-        github:'',
+        github:'https://github.com/carlosmpr/backpack-frontend',
         demo:'',
         live:'',
         image:backpack,
+        disable: {
+            live: true,
+            demo: true
+        }
     },{
         title:"Menukome",
         description:"Intelligent menu for restaurants that highlight main dishes; easy to use and update and show recommendations for customers of drinks and side plates to accompany the main dish.",
@@ -23,11 +27,15 @@ export default function PortFolio() {
         bullet3:"Delivered using Amazon CloudFront for fast content delivery and cache capability.",
         github:'',
         demo:'',
-        live:'',
+        live:'https://menukomedemomenu.s3.amazonaws.com/index.html',
         image:menu,
         direccion:"flex-row-reverse",
      
-        color:'bg-red-700'
+        color:'bg-red-700',
+        disable: {
+            github: true,
+            demo: true
+        }
     },
     {
         title:"Pedigree Breeding",
@@ -39,7 +47,11 @@ export default function PortFolio() {
         demo:'',
         live:'',
         image:breed,
-       
+        disable: {
+            github: true,
+            demo: true,
+            live:true
+        },
        
         color:'bg-yellow-700'
     }]

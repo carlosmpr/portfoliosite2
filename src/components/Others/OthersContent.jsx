@@ -6,7 +6,7 @@ export default function OthersContent({title, description, github}) {
             <img src="https://awv3node-homepage.surge.sh/build/assets/bash.svg" />
             <p className="font-bold text-2xl">{title}</p>
             <p className="text-center">{description}</p>
-            <a href={github} >Github</a>
+            <a href={github} target="_blank" className="p-3 bg-indigo-700 rounded-xl bg-opacity-20">Github</a>
         </div>
     )
 }

@@ -6,14 +6,14 @@ export default function Others() {
       title: "JBOOK",
       description:
         "Jupyter style notebook for javascriptwith in-browser bundling capabilities build using: TypesScrit,ESBUILD.",
-      github: "",
+      github: "https://github.com/carlosmpr/jbook",
     },
 
     {
         title: "EMAILY",
         description:
           "Eamily is an app to collect customer feedback, sending email blast with SendGrid API and managing payments with the stripe API.",
-        github: "",
+        github: "https://github.com/carlosmpr/emaily",
       },
 
 
@@ -21,7 +21,7 @@ export default function Others() {
         title: "STREAMER",
         description:
           "Node server for streamer using node rtsp-stream packages and express that allows to stream from obs to the website.",
-        github: "",
+        github: "https://github.com/carlosmpr/streamer",
       },
   ];
   return (
