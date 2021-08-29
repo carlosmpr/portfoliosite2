@@ -46,7 +46,7 @@ export default function Connect() {
       ) : (
         <>
           <input
-            className="bg-indigo-700 bg-opacity-5 rounded-xl shadow-md p-4 w-2/6 focus:outline-none focus:ring-2 focus:ring-blue-600"
+            className="bg-indigo-700 bg-opacity-5 rounded-xl shadow-md p-4 md:w-2/6 focus:outline-none focus:ring-2 focus:ring-blue-600"
             type="text"
             placeholder="Email"
             value={email}
@@ -58,7 +58,7 @@ export default function Connect() {
           />
 
           <input
-            className="bg-indigo-700 bg-opacity-5 rounded-xl shadow-md p-4 w-2/6 focus:outline-none focus:ring-2 focus:ring-blue-600"
+            className="bg-indigo-700 bg-opacity-5 rounded-xl shadow-md p-4 md:w-2/6 focus:outline-none focus:ring-2 focus:ring-blue-600"
             type="text"
             placeholder="Name"
             value={name}
@@ -70,7 +70,7 @@ export default function Connect() {
           />
 
           <textarea
-            className="bg-indigo-700 bg-opacity-5 rounded-xl shadow-md p-4 w-2/6 focus:outline-none focus:ring-2 focus:ring-blue-600"
+            className="bg-indigo-700 bg-opacity-5 rounded-xl shadow-md p-4 md:w-2/6 focus:outline-none focus:ring-2 focus:ring-blue-600"
             placeholder="Message"
             value={message}
             name={message}

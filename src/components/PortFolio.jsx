@@ -29,7 +29,7 @@ export default function PortFolio() {
         demo:'',
         live:'https://menukomedemomenu.s3.amazonaws.com/index.html',
         image:menu,
-        direccion:"flex-row-reverse",
+        direccion:" flex-col-reverse md:flex-row-reverse",
      
         color:'bg-red-700',
         disable: {

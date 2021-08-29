@@ -27,7 +27,7 @@ export default function Others() {
   return (
     <div className="w-screen  flex flex-col items-center  font-mono space-y-6 mt-52">
       <h1 className="font-bold text-4xl">Other Projects</h1>
-      <div className="w-full flex justify-evenly items-center flex-wrap">
+      <div className="w-full flex flex-col md:flex-row justify-evenly items-center flex-wrap">
         {others.map((data) => (
           <OthersContent {...data} />
         ))}

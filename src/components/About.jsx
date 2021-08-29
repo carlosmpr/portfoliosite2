@@ -17,7 +17,7 @@ export default function About() {
       <div className="w-full overflow:hidden space-y-6">
          {me.map(data => {
            return (
-            <div className="w-full  justify-center flex items-center ">
+            <div className="w-full  justify-center flex flex-col-reverse md:flex-row items-center p-9 md:p-0">
              <Card {...data}/>
              {data.avatar ? <Avatar /> :null}
              </div>

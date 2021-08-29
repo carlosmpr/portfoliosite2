@@ -9,8 +9,8 @@ export default function Hero() {
         <>
         <animated.div className="w-screen h-screen flex flex-col items-center justify-center font-mono" style={props}>
             
-            <h1 className="text-8xl font-bold">Carlos Polanco</h1>
-            <h2  className="text-5xl">Software Developer</h2>
+            <h1 className=" text-4xl md:text-8xl font-bold">Carlos Polanco</h1>
+            <h2  className="text-2xl md:text-4xl">Software Developer</h2>
            
            {trail.map(styles => <animated.img style={styles} src={terminal} className="w-48"/>)}
      

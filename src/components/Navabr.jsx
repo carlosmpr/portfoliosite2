@@ -6,7 +6,7 @@ export default function Navabr() {
 
 
     return (
-        <animated.div className="w-screen h-14 flex shadow-md items-center justify-evenly rounded-b-3xl font-bold uppercase text-md" style={props}>
+        <animated.div className="w-screen h-14 flex shadow-md items-center justify-evenly rounded-b-3xl font-bold uppercase text-xs md:text-md" style={props}>
            <NavItem >
             <p>Carlos</p>
             <p>About</p>
