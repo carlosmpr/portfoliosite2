@@ -6,7 +6,7 @@ export default function Footer() {
 
 
     return (
-        <animated.div className="w-screen space-y-6 lg:space-y-0 lg:h-14 bg-black bg-opacity-10 mt-20 flex flex-col lg:flex-row shadow-md items-center justify-evenly rounded-t-3xl font-bold uppercase text-md" style={props}>
+        <animated.div className="w-screen space-y-6 lg:space-y-0 lg:h-14 bg-black bg-opacity-10 mt-20 flex flex-col lg:flex-row shadow-md items-center justify-evenly rounded-t-3xl font-bold uppercase text-md" style={props}   id="blog">
       
             <p>Blogs</p>
             <a href="https://cmpr.medium.com/what-are-browser-cookies-59ba1bb26447" target="_blank">What are browser Cookies?</a>

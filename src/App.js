@@ -7,11 +7,12 @@ import Navabr from "./components/Navabr";
 import Others from "./components/Others";
 import PortFolio from "./components/PortFolio";
 function App() {
+  let count = 0
   return (
     <>
       <Navabr />
       <Hero />
-      <PortFolio />
+      <PortFolio count={count}/>
       <Others />
       <About />
       <Connect />

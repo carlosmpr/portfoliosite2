@@ -8,11 +8,11 @@ export default function Navabr() {
     return (
         <animated.div className="w-screen h-14 flex shadow-md items-center justify-evenly rounded-b-3xl font-bold uppercase text-xs md:text-md" style={props}>
            <NavItem >
-            <p>Carlos</p>
-            <p>About</p>
-            <p>Portfolio</p>
-            <p>Blog</p>
-            <p>Contact</p>
+            <a className="cursor-pointer" href="#about">Carlos</a>
+            <a className="cursor-pointer" href="#about">About</a>
+            <a className="cursor-pointer" href="#portfolio">Portfolio</a>
+            <a className="cursor-pointer" href="#blog">Blog</a>
+            <a className="cursor-pointer" href="#contact">Contact</a>
             </NavItem>
           
         </animated.div>

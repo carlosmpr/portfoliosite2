@@ -1,5 +1,5 @@
 import React from "react";
-
+import { useSpring, animated, useTrail } from "react-spring";
 export default function PorfolioContent({
   title,
   description,
@@ -14,9 +14,15 @@ export default function PorfolioContent({
   color= 'bg-purple-700',
   disable = false
 }) {
+
+  const props = useSpring({
+    to: { x: 0 },
+    from: { x: -500 },
+    delay: 500,
+  });
   return (
     <>
-      <div className={`w-full  flex ${direccion}  items-center   font-mono justify-center space-x-4 gap-y-12`}>
+      <animated.div className={`w-full  flex ${direccion}  items-center   font-mono justify-center space-x-4 gap-y-12`} style={props}>
         <div className={`${color} w-5/6 md:w-1/3   p-4 space-y-3 bg-opacity-20   backdrop-filter backdrop-blur overflow-hidden  shadow-lg rounded-xl`}>
           <h1 className="font-bold text-xl md:text-3xl">{title}</h1>
           <p className="text-justify text-sm md:text-base">{description}</p>
@@ -34,7 +40,7 @@ export default function PorfolioContent({
        
           <img src={image} alt={image} className="w-5/6 md:w-2/5   rounded-xl shadow-lg"/>
     
-      </div>
+      </animated.div>
     </>
   );
 }

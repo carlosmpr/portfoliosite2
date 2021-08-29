@@ -35,7 +35,7 @@ export default function Connect() {
   };
 
   return (
-    <div className="w-screen  flex flex-col items-center  font-mono space-y-6  mt-32">
+    <div className="w-screen  flex flex-col items-center  font-mono space-y-6  mt-32" id="contact">
       <h1 className="font-bold text-4xl">Message me</h1>
       {success ? (
         <div>
