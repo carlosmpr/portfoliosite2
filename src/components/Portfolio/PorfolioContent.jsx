@@ -15,7 +15,7 @@ export default function PorfolioContent({
 }) {
   return (
     <>
-      <div className={`w-full h-screen  flex ${direccion}  items-center   font-mono justify-center space-x-4`}>
+      <div className={`w-full  flex ${direccion}  items-center   font-mono justify-center space-x-4`}>
         <div className={`${color} w-1/3  p-4 space-y-3 bg-opacity-20   backdrop-filter backdrop-blur overflow-hidden  shadow-lg rounded-xl`}>
           <h1 className="font-bold text-3xl">{title}</h1>
           <p className="text-justify">{description}</p>

@@ -12,7 +12,7 @@ export default function About() {
 {text:"My Skills are in Python, React, TypeScript, NodeJS, Ruby, Rails, Redux, Flutter, Ionic, NextJS, React-Native, SQL, VueJS, GraphQL, NoSQL, Git, Bash Script, Electron, AWS, Docker, PostgreSQL, Active Record, Heroku, Figma, Firebase, PWA"}
 ]
   return (
-    <div className="w-screen h-screen flex flex-col items-center  font-mono space-y-6 ">
+    <div className="w-screen  flex flex-col items-center  font-mono space-y-6  mt-52">
       <h1 className="font-bold text-4xl">About ME</h1>
       <div className="w-full overflow:hidden space-y-6">
          {me.map(data => {

@@ -44,7 +44,7 @@ export default function PortFolio() {
         color:'bg-yellow-700'
     }]
     return (
-        <div className="w-screen  flex flex-col items-center  font-mono  ">
+        <div className="w-screen  flex flex-col items-center  font-mono space-y-32 ">
         <h1 className="font-bold text-4xl">PortFolio</h1>
          {projects.map(data => <PorfolioContent {...data} />)}
         </div>
