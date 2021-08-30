@@ -3,6 +3,7 @@ import React from "react";
 import Avatar from "./Avatar";
 import Card from "./Card/Card";
 import Social from "./Social";
+import Me from '../assets/images/circular.png'
 import { useInView } from "react-intersection-observer";
 export default function About() {
   let { ref, inView, entry,  } = useInView({
@@ -29,7 +30,7 @@ export default function About() {
            return (
             <div className="w-full  justify-center flex flex-col-reverse md:flex-row items-center p-9 md:p-0">
              <Card {...data}/>
-             {data.avatar ? <Avatar /> :null}
+             {data.avatar ? <Avatar image={Me}/> :null}
              </div>
            )
          })}

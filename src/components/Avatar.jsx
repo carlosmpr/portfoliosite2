@@ -6,7 +6,7 @@ export default function Avatar({image="https://images.unsplash.com/photo-1491528
 return (
 
       <animated.img
-        className="inline-block  md:w-48  rounded-full ring-2 ring-white"
+        className="inline-block w-40 md:w-48  rounded-full ring-2 ring-white"
         src={image}
         alt=""
         style={props}
