@@ -29,12 +29,11 @@ export default function PortFolio() {
       bullet3:
         " Developed with React /Redux the front-end and with Rails/active record/PostgreSQL the back-end.",
       github: "https://github.com/carlosmpr/backpack-frontend",
-      demo: "",
+      demo: "https://drive.google.com/file/d/12WxbUYng2qlprC_6h5jA0UKr8p7Omit0/view?usp=sharing",
       live: "",
       image: backpack,
       disable: {
         live: true,
-        demo: true,
       },
     },
     {
@@ -47,7 +46,7 @@ export default function PortFolio() {
         "Integrated with Firebase Fire Store to store database information.",
       bullet3:
         "Delivered using Amazon CloudFront for fast content delivery and cache capability.",
-      github: "",
+      github: "https://github.com/carlosmpr/menukome2",
       demo: "",
       live: "https://menukomedemomenu.s3.amazonaws.com/index.html",
       image: menu,
@@ -55,7 +54,6 @@ export default function PortFolio() {
 
       color: "bg-red-700",
       disable: {
-        github: true,
         demo: true,
       },
     },
@@ -69,13 +67,11 @@ export default function PortFolio() {
         "Managed user authentication with Amazon Cognito and DynamoDB for data storage.",
       bullet3:
         "Implemented serverless architecture with AWS Lambda for app functionality and API Gateway to communicate the app and Lambda functions.",
-      github: "",
-      demo: "",
+      github: "https://github.com/carlosmpr/PedigreeBreading",
+      demo: "https://drive.google.com/file/d/1bFkHk1V7YAUP_Hze919DKErq3Ez81x1c/view?usp=sharing",
       live: "",
       image: breed,
       disable: {
-        github: true,
-        demo: true,
         live: true,
       },
 
